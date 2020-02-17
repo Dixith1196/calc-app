@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body class="body">
+  <script src="main.js"></script>
+  <h3 class="text-center mt-5" >Maitre D</h3>
+  <div class="div1">
+    <div class="col-xs-4">
+      <label>Total:</label>
+      <input id="total" class="totalInput" type="number" />
+    </div>
+    <div class="d-flex flex-row justify-space-between mt-3 mb-3">
+      <div class="d-flex flex-row col-xs-2">
+      <label>Tip:</label>
+      <label  id="tip" class="ml-2">$0.00</label>
+      </div>
+      <div class="d-flex flex-row ml-5">
+        <label>Rate:</label>
+        <input id="rate" class="taxRateInput" type="number" />
+      </div>
+    </div>
+    <div>
+    <label>Tax:</label>
+    <label id="tax">$0.00</label>
+    </div>
+    <div>
+      <label>Grand Total:</label>
+      <label id="grandTotal">$0.00</label>
+      </div>
+      <button class="calcBtn" onclick="hello()">Calculate</button>
+  </div>
+
+</body>
+<footer class="footer">
+  <p class="text-center">&copy; 2020 Deekshith Maram, All Rights Reserved</p>
+</footer>
+</html>
